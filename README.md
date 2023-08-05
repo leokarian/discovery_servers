@@ -50,9 +50,11 @@ Port/s:
   --ssh SSH             Port to use for SSH Scan. (Default: 22)
   --wmi WMI             Port to use for WMI Scan. (Default: 135)
   --rdp RDP             Port to use for RDP Scan. (Default: 3389)
+```
 
 Examples:
 =========
+```
    discovery_servers.py -s 192.168.1.110 -u Administrator -p password
    discovery_servers.py -sf servers.txt -uf users.txt -pf passwords.txt
    discovery_servers.py -sf servers.txt -u root -pf passwords.txt -ssh 2022
